@@ -1,0 +1,205 @@
+{
+  "project_name": "Ruta Job",
+  "app_type": "mobile_app_expo",
+  "design_philosophy": {
+    "theme": "Industrial Precision",
+    "core_values": ["Clarity", "Speed", "Trust"],
+    "visual_style": "High Contrast, Tactile, legible",
+    "inspiration": "Automotive Dashboards, Swiss Logistics"
+  },
+  "colors": {
+    "primary": {
+      "main": "#1B2A4A",
+      "light": "#2C3E63",
+      "dark": "#0F1A33",
+      "contrast_text": "#FFFFFF"
+    },
+    "secondary": {
+      "main": "#FF6B35",
+      "light": "#FF8A60",
+      "dark": "#D94D1A",
+      "contrast_text": "#FFFFFF"
+    },
+    "background": {
+      "default": "#F4F6F8",
+      "paper": "#FFFFFF",
+      "subtle": "#E2E8F0"
+    },
+    "text": {
+      "primary": "#1B2A4A",
+      "secondary": "#64748B",
+      "tertiary": "#94A3B8",
+      "disabled": "#CBD5E1"
+    },
+    "status": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "headings": "BarlowCondensed-Bold",
+      "body": "Inter-Regular",
+      "medium": "Inter-Medium",
+      "bold": "Inter-Bold"
+    },
+    "scale": {
+      "h1": { "fontSize": 32, "lineHeight": 40, "fontWeight": "700" },
+      "h2": { "fontSize": 28, "lineHeight": 36, "fontWeight": "700" },
+      "h3": { "fontSize": 24, "lineHeight": 32, "fontWeight": "600" },
+      "h4": { "fontSize": 20, "lineHeight": 28, "fontWeight": "600" },
+      "body_lg": { "fontSize": 18, "lineHeight": 28, "fontWeight": "400" },
+      "body_md": { "fontSize": 16, "lineHeight": 24, "fontWeight": "400" },
+      "body_sm": { "fontSize": 14, "lineHeight": 20, "fontWeight": "400" },
+      "caption": { "fontSize": 12, "lineHeight": 16, "fontWeight": "500" }
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 48,
+    "container_padding": 20
+  },
+  "radius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "full": 9999
+  },
+  "shadows": {
+    "sm": {
+      "shadowColor": "#000",
+      "shadowOffset": { "width": 0, "height": 1 },
+      "shadowOpacity": 0.18,
+      "shadowRadius": 1.0,
+      "elevation": 1
+    },
+    "md": {
+      "shadowColor": "#000",
+      "shadowOffset": { "width": 0, "height": 2 },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84,
+      "elevation": 3
+    },
+    "lg": {
+      "shadowColor": "#000",
+      "shadowOffset": { "width": 0, "height": 4 },
+      "shadowOpacity": 0.30,
+      "shadowRadius": 4.65,
+      "elevation": 6
+    }
+  },
+  "assets": {
+    "icons": {
+      "library": "@expo/vector-icons",
+      "set": "MaterialCommunityIcons",
+      "size": { "sm": 16, "md": 24, "lg": 32 }
+    },
+    "images": {
+      "hero_truck_highway": "https://images.unsplash.com/photo-1714903726946-c307906c3b35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjB0cnVjayUyMG9uJTIwaGlnaHdheSUyMHN1bnNldHxlbnwwfHx8fDE3NzMzNDU3MTN8MA&ixlib=rb-4.1.0&q=85",
+      "driver_portrait_1": "https://images.unsplash.com/photo-1768554058655-ffc14e476826?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGRyaXZlciUyMHBvcnRyYWl0JTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc3MzM0NTcxOXww&ixlib=rb-4.1.0&q=85",
+      "driver_portrait_2": "https://images.pexels.com/photos/14797989/pexels-photo-14797989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "warehouse_interior": "https://images.pexels.com/photos/4487363/pexels-photo-4487363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "map_placeholder": "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80"
+    }
+  },
+  "components": {
+    "Button": {
+      "primary": {
+        "backgroundColor": "#FF6B35",
+        "borderRadius": 8,
+        "height": 56,
+        "justifyContent": "center",
+        "alignItems": "center"
+      },
+      "secondary": {
+        "backgroundColor": "transparent",
+        "borderWidth": 2,
+        "borderColor": "#1B2A4A",
+        "borderRadius": 8,
+        "height": 56,
+        "justifyContent": "center",
+        "alignItems": "center"
+      },
+      "text_style": {
+        "color": "#FFFFFF",
+        "fontSize": 18,
+        "fontWeight": "700",
+        "fontFamily": "BarlowCondensed-Bold"
+      }
+    },
+    "Input": {
+      "container": {
+        "backgroundColor": "#FFFFFF",
+        "borderWidth": 1,
+        "borderColor": "#CBD5E1",
+        "borderRadius": 8,
+        "height": 56,
+        "paddingHorizontal": 16,
+        "marginBottom": 16
+      },
+      "text": {
+        "fontSize": 16,
+        "color": "#1B2A4A"
+      },
+      "label": {
+        "fontSize": 14,
+        "fontWeight": "600",
+        "color": "#1B2A4A",
+        "marginBottom": 8
+      }
+    },
+    "Card": {
+      "container": {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 12,
+        "padding": 16,
+        "marginBottom": 16,
+        "shadowColor": "#000",
+        "shadowOffset": { "width": 0, "height": 2 },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 4,
+        "elevation": 2
+      }
+    },
+    "Badge": {
+      "container": {
+        "paddingHorizontal": 8,
+        "paddingVertical": 4,
+        "borderRadius": 4,
+        "alignSelf": "flex-start"
+      },
+      "text": {
+        "fontSize": 12,
+        "fontWeight": "600"
+      }
+    }
+  },
+  "layout_rules": {
+    "safe_area": "Always wrap screen content in SafeAreaView (or use safe-area-context hook)",
+    "padding_strategy": "Use 20px (spacing.container_padding) for screen edges. Use 16px (spacing.md) for internal component gaps.",
+    "keyboard_handling": "Wrap forms in KeyboardAvoidingView with behavior='padding' (iOS) or 'height' (Android)",
+    "scroll_views": "Use ScrollView with contentContainerStyle={{ flexGrow: 1 }} for scrollable screens."
+  },
+  "universal_guidelines": [
+    "NO CSS FILES. Use StyleSheet.create({}) only.",
+    "NO HTML TAGS. Use <View>, <Text>, <Image>, <TouchableOpacity>.",
+    "Use 'BarlowCondensed-Bold' for all Headings (H1-H4). Load this font in _layout.tsx.",
+    "Use 'Inter-Regular' for Body text.",
+    "Interactive elements must have a minimum height of 48px (touch target).",
+    "Primary Action Buttons must be Orange (#FF6B35).",
+    "Secondary Actions should be Outline Blue or Text Only.",
+    "Text must always be wrapped in <Text> components.",
+    "Images must have 'contentFit=\"cover\"' (using expo-image) or 'resizeMode=\"cover\"' (using Image).",
+    "Use @expo/vector-icons (MaterialCommunityIcons preferred for trucking).",
+    "Data-testids are mandatory for all interactive elements (e.g., testID='login-button').",
+    "Error states must be Red (#EF4444) with an icon.",
+    "Success states must be Emerald (#10B981) with an icon."
+  ]
+}
